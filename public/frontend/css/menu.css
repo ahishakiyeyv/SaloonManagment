@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+     text-decoration: none;
+}
+
+/* variables start */
+:root
+{
+    --gray:#c6d7eb;
+     --black: #000;
+     --white: #fff;
+     --bleu:#408ec6;
+     --marron:#7a2048;
+     --indigo:#1e2761;
+     --violet:#320d3e;
+     --border: .2rem solid var(--black);
+}
+
+/* @mixin grid()
+{
+     display: grid;
+} */
+/* variables end */
+
+::-webkit-scrollbar
+     {
+          width: 1rem;
+     }
+::-webkit-scrollbar-track
+{
+     background: var(--white);
+}
+
+::-webkit-scrollbar-thumb
+{
+     background: var(--black);
+}
+html
+{
+     font-size: 62.5%;
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+     scroll-padding-top: 7rem;   
+}
+
+section
+{
+     padding: 5rem 9%;
+}
+
+.heading{
+     text-align: center;
+     margin-bottom: 3rem;
+}
+
+.heading span
+{
+     font-size: 2.5rem;
+}
+
+.heading h1
+{
+     font-size: 4rem;
+     padding-top: .5rem;
+}
+
+.header
+{
+     position: sticky;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: var(--violet);
+     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+     padding: 2rem 9%;
+}
+
+.logo
+     {
+          font-size: 2.5rem;
+          color: var(--white);
+     }
+
+.navbar a
+{
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: var(--white);   
+}
+
+.navbar a:hover
+{
+     text-decoration: none;
+     color:var(--gray);
+}
+
+#menu-btn
+{
+     cursor: pointer;
+     font-size: 3rem;
+     display: none;
+}
+
+
+
+/* .services .box-container
+{
+
+} */
+
+
+/* Responsivity starts*/
+
+@media (max-width: 1200px)
+{
+     .header
+     {
+          padding: 2rem;
+     }
+
+     section
+     {
+          padding: 3rem 2rem;
+     }
+
+     .home .content h3
+     {
+          font-size: 4rem;
+     }
+}
+
+@media (max-width: 991px)
+{
+     html{
+          font-size: 50%;
+     }
+}
+
+@media (max-width: 768px)
+{
+     .btn
+     {
+          display: none;
+     }
+
+     #menu-btn
+     {
+          display: inline-block;
+          transition: .2s linear;
+     }
+
+     #menu-btn .fa-times
+     {
+          transform: rotate(180deg);
+     }
+
+     .navbar
+     {
+          position: absolute;
+          top: 99%;
+          left: 0;
+          right: 0;
+          border-top: var(--border);
+          background-color: var(--white);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          transition: .2s linear;
+     }
+
+     .active
+     {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+     }
+
+     a
+     {
+          display: block;
+          margin: 0;
+          padding: 1.5rem 2rem;
+     }
+}
+
+@media (max-width: 450px)
+{
+     html{
+          font-size: 50%;
+     }
+     .heading h1
+     {
+          font-size: 3rem;
+     }
+}
+
+/* Responsivity ends*/
