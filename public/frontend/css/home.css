@@ -32,7 +32,7 @@
      flex-wrap: wrap;
      gap: 2rem;
      background: var(--indigo);
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, var(--gray) 100%);
+background-image: linear-gradient(43deg, #330867 0%, #C850C0 46%, var(--gray) 100%);
 
 }
 .container{
@@ -55,6 +55,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, var(--gray) 10
 .content1 .para{
     font-size: 2.5rem;
     line-height: 3rem;
+    font-family:pristina;
 }
 .content2{
     width:30rem;
@@ -62,4 +63,100 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, var(--gray) 10
 .content2 .img{
     width:40rem;
     height:40rem;
+}
+
+/* ========================================section appointment======================================= */
+.appoint{
+  background:#350969;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form{
+    width:40rem;
+background: rgba(251, 247, 247, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+border: 1px solid rgba(251, 247, 247, 0.9);
+}
+.title3{
+    font-size:2.5rem;
+    color:var(--white);
+    text-align: center;
+    padding:1rem;
+    margin:1rem;
+}
+.ule .lii{
+    list-style: none;
+    margin:2rem 3rem;
+}
+.ule .lii input{
+    padding:1rem;
+    border:0;
+    border-bottom:2px solid white;
+    width:35rem;
+    background:transparent;
+    color:var(--white);
+    font-size:1.6rem;
+}
+.ule .lii select{
+    padding:1rem;
+    border:0;
+    border-bottom:2px solid white;
+    width:35rem;
+    background:transparent;
+    color:var(--gray);
+    font-size:1.6rem;
+}
+::placeholder{
+    color:var(--white);
+    font-size:1.6rem;
+}
+.box{
+    width:70rem;
+}
+.title4{
+    margin:5rem 2rem;
+    text-align:center;
+    font-size:3rem;
+    color:var(--white);
+}
+.para1{
+    margin:0rem 5rem;
+    font-size:2.8rem;
+    color:var(--white);
+    font-family:pristina;
+    letter-spacing: 5px;
+}
+
+/* ==================================section coiffure recente===================== */
+.recent{
+
+}
+.title5{
+    font-size:3rem;
+    text-align:center;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin:2rem 8rem;
+   
+}
+.FlexContainer div {
+    width: 250px;
+    height: 220px;
+    margin: 4rem 1rem;
+}
+.FlexContainer div img{
+    height:inherit;
+    width:inherit;
 }

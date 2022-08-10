@@ -22,12 +22,51 @@
         </div>
     </section>
     <section class="appoint">
+       <div class="container1">
         <div class="form">
-            <h1 class="title1">Prennez le RendezVous</h1>
             <form action="">
-                <input type="text" name="nom" id="">
-
+                <h2 class="title3">Prennez RendezVous</h2>
+                <ul class="ule">
+                    <li class="lii"><input type="text" name="nom" id="" placeholder="Nom..."></li>
+                    <li class="lii"><input type="text" name="mail" id="" placeholder="Email..."></li>
+                    <li class="lii"><input type="text" name="telephone" id="" placeholder="Telephone..."></li>
+                    <li class="lii"><input type="text" name="date" id="" placeholder="Date..."></li>
+                    <li class="lii"><input type="text" name="heure" id="" placeholder="Heure..."></li>
+                    <li class="lii"><select name="service" id="">
+                        <option value="">--Service--</option>   
+                        <option value="">Manicure</option>   
+                        <option value="">Pedicure</option>   
+                    </select></li>
+                </ul>
             </form>
+        </div>
+        <div class="box">
+            <h2 class="title4">Bienvenue a BantuBwoy Saloon</h2>
+            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique doloremque veritatis, dolor nostrum delectus? Laborum ex ad maxime, molestias, sint reprehenderit ea cumque exercitationem et non quidem possimus asperiores!</p>
+        </div>
+       </div>
+    </section>
+    <section class="recent">
+        <h1 class="title5">Coiffure Recentes</h1>
+        <div class='FlexContainer'>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
+            <div>
+                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+            </div>
         </div>
     </section>
 </body>
