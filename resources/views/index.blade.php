@@ -14,10 +14,10 @@
             <div class="content1">
                 <h5 class="tle">Beauty Parlour</h5>
                 <h1 class="title0">BEST HAIRCUT OF THE SEASONS</h1>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa vel autem et dolor illum ipsum temporibus totam provident porro earum facilis, itaque voluptas nisi corporis a, enim quae? Nobis?</p>
+                <p class="para">Notre objectif principal est la qualité et l'hygiène. Notre salon est bien équipé avec des équipements de technologie de pointe et fournit les meilleurs services de qualité. Notre personnel est bien formé et expérimenté, offrant des services avancés de modelage de la peau, des cheveux et du corps qui vous offriront une expérience luxueuse qui vous laissera détendu et sans stress. </p>
             </div>
             <div class="content2">
-                <img src="{{ url('/img/12.png') }}" alt="images non disponible" class="img">
+                <img src="{{ url('/img/3.png') }}" alt="images non disponible" class="img">
             </div>
         </div>
     </section>
@@ -37,12 +37,13 @@
                         <option value="">Manicure</option>   
                         <option value="">Pedicure</option>   
                     </select></li>
+                    <li class="lii"><button class="btn-contact">Submit</button></li>
                 </ul>
             </form>
         </div>
         <div class="box">
             <h2 class="title4">Bienvenue a BantuBwoy Saloon</h2>
-            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique doloremque veritatis, dolor nostrum delectus? Laborum ex ad maxime, molestias, sint reprehenderit ea cumque exercitationem et non quidem possimus asperiores!</p>
+            <p class="para1">Notre objectif principal est la qualité et l'hygiène. Notre salon est bien équipé avec des équipements de technologie de pointe et fournit les meilleurs services de qualité. Notre personnel est bien formé et expérimenté, offrant des services avancés de modelage de la peau, des cheveux et du corps qui vous offriront une expérience luxueuse qui vous laissera détendu et sans stress. Les spécialités du salon sont, outre les décolorations et les soins du visage réguliers, de nombreux types de coiffures, le maquillage de mariée et de cinéma et différents types de soins du visage et de colorations de cheveux à la mode.</p>
         </div>
        </div>
     </section>
@@ -50,22 +51,22 @@
         <h1 class="title5">Coiffure Recentes</h1>
         <div class='FlexContainer'>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/6.png') }}" alt="image non disponible">
             </div>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/11.png') }}" alt="image non disponible">
             </div>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/10.png') }}" alt="image non disponible">
             </div>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/5.png') }}" alt="image non disponible">
             </div>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/9.png') }}" alt="image non disponible">
             </div>
             <div>
-                <img src="{{ url('/img/2.png') }}" alt="image non disponible">
+                <img src="{{ url('/img/12.png') }}" alt="image non disponible">
             </div>
         </div>
     </section>

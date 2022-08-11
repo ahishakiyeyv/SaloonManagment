@@ -10,7 +10,7 @@
 <body>
     <!-- header section starts -->
     <header class="header">
-        <a href="#" class="logo"><i class="fas fa-splotch"></i> Saloon</a>
+        <a href="#" class="logo"><img src="{{ url('/img/420321.png') }}" alt="image non disponible"> Saloon</a>
         <nav class="navbar">
              <a href="#home">Accueil</a>
              <a href="#services">Service</a>
