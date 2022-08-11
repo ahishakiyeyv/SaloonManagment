@@ -135,9 +135,7 @@ border: 1px solid rgba(251, 247, 247, 0.9);
 }
 
 /* ==================================section coiffure recente===================== */
-.recent{
 
-}
 .title5{
     font-size:3rem;
     text-align:center;
@@ -159,4 +157,19 @@ border: 1px solid rgba(251, 247, 247, 0.9);
 .FlexContainer div img{
     height:inherit;
     width:inherit;
+}
+/* ==================================section book===================================== */
+.book{
+    background:var(--marron);
+    min-height: 20vh;
+}
+.title6{
+    text-align: center;
+    font-size:4rem;
+    color:var(--white);
+}
+.btn-contact{
+display: flex;
+align-items: center;
+padding:1rem 3rem;
 }
