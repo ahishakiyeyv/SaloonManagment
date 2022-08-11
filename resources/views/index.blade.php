@@ -71,7 +71,15 @@
     </section>
     <section class="book">
         <h1 class="title6">Nous faisons de la beaute et des dernieres creations</h1>
-        <button class="btn-contact">Contactez-Nous</button>
+        <div class="flexbtn">
+            <button></button>
+            <button class="btn-contact">Contactez-Nous</button>
+            <button></button>
+        </div>
+        
     </section>
+    <section class="vide">
+    </section>
+    @include('layouts.footer')
 </body>
 </html>
