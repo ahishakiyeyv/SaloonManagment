@@ -12,8 +12,8 @@
     <header class="header">
         <a href="#" class="logo"><img src="{{ url('/img/420321.png') }}" alt="image non disponible"> Umwizero</a>
         <nav class="navbar">
-             <a href="#home">Accueil</a>
-             <a href="#services">Service</a>
+             <a href="{{ url('/') }}">Accueil</a>
+             <a href="{{ url('service') }}">Service</a>
              <a href="#about">A Propos</a>
              <a href="#features">Contact</a>
         </nav>

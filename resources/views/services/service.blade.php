@@ -9,6 +9,8 @@
 </head>
 <body>
     @include('layouts.menu')
-    
+    <section class="services">
+        
+    </section>
 </body>
 </html>

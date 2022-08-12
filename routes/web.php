@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 Route::get('/','App\Http\Controllers\AccueilController@accueil');
+
+
+//START SERVICE
+Route::get('service','App\Http\Controllers\ServiceController@getservice');

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+     text-decoration: none;
+}
+
+/* variables start */
+:root
+{
+    --gray:#c6d7eb;
+     --black: #000;
+     --white: #fff;
+     --bleu:#408ec6;
+     --marron:#7a2048;
+     --indigo:#1e2761;
+     --violet:#320d3e;
+     --border: .2rem solid var(--black);
+}
+/* ============================section service============================= */
+.services{
+    width: 100%;
+    height:75%;
+    background-image:url('/img/c.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
