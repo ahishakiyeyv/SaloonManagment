@@ -17,7 +17,7 @@
                 <p class="para">Notre objectif principal est la qualité et l'hygiène. Notre salon est bien équipé avec des équipements de technologie de pointe et fournit les meilleurs services de qualité. Notre personnel est bien formé et expérimenté, offrant des services avancés de modelage de la peau, des cheveux et du corps qui vous offriront une expérience luxueuse qui vous laissera détendu et sans stress. </p>
             </div>
             <div class="content2">
-                <img src="{{ url('/img/3.png') }}" alt="images non disponible" class="img">
+               
             </div>
         </div>
     </section>
@@ -42,7 +42,7 @@
             </form>
         </div>
         <div class="box">
-            <h2 class="title4">Bienvenue a BantuBwoy Saloon</h2>
+            <h2 class="title4">Bienvenue à UMWIZERO Saloon</h2>
             <p class="para1">Notre objectif principal est la qualité et l'hygiène. Notre salon est bien équipé avec des équipements de technologie de pointe et fournit les meilleurs services de qualité. Notre personnel est bien formé et expérimenté, offrant des services avancés de modelage de la peau, des cheveux et du corps qui vous offriront une expérience luxueuse qui vous laissera détendu et sans stress. Les spécialités du salon sont, outre les décolorations et les soins du visage réguliers, de nombreux types de coiffures, le maquillage de mariée et de cinéma et différents types de soins du visage et de colorations de cheveux à la mode.</p>
         </div>
        </div>
