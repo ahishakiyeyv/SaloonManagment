@@ -61,7 +61,7 @@
     text-transform: uppercase;
 }
 table{
-    margin-left:20rem;
+    margin-left:15rem;
     margin-top:2rem;
 }
 table thead{
@@ -85,6 +85,6 @@ table tbody td{
 
 /* ========================================section vide============================================= */
 .vide{
-
+    background:var(--gray);
     min-height:20vh;
 }
