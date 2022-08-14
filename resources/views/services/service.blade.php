@@ -10,7 +10,12 @@
 <body>
     @include('layouts.menu')
     <section class="services">
-        
+        <h3 class="title">
+            <a href="{{ url('/') }}" class="link">Accueil</a> > <a href="#" class="linke">Service</a>
+        </h3>
+    </section>
+    <section class="list">
+        <h1 class="title1">Liste des Services</h1>
     </section>
 </body>
 </html>
