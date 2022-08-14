@@ -88,3 +88,17 @@ table tbody td{
     background:var(--gray);
     min-height:20vh;
 }
+
+
+@media (max-width: 768px){
+    table{
+        margin-left:-9rem;
+        width:40rem;
+        padding:2rem 7rem;
+    }
+    .title{
+        position:relative;
+        top:35rem;
+        left:10rem;
+    }
+}
