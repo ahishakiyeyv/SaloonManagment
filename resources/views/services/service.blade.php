@@ -53,6 +53,9 @@
             </tbody>
         </table>
     </section>
+<section class="vide">
 
+</section>
+@include('layouts.footer')
 </body>
 </html>

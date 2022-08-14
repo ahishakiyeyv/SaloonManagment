@@ -14,14 +14,14 @@
             font-size:1.8rem;
             padding-top:2.5rem;
             color:ivory;
-            font-weight:100;
+            font-weight:600;
         }
     </style>
 </head>
 <body>
     <footer>
         <div class="containerfooter">
-            <h2>Copyright &copy 2022 BantuBwoy Salon</h2>
+            <h2>Copyright &copy 2022 Umwizero Salon</h2>
         </div>
     </footer>
 </body>

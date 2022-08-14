@@ -40,9 +40,11 @@
 }
 .link{
     color:var(--violet);
+    font-size:3rem;
 }
 .linke{
     color:#0552AE;
+    font-size:2.2rem;
 }
 
 
@@ -78,4 +80,11 @@ table tbody td{
     font-weight:600;
     border:0;
     border-bottom:2px solid var(--indigo);
+}
+
+
+/* ========================================section vide============================================= */
+.vide{
+
+    min-height:20vh;
 }
