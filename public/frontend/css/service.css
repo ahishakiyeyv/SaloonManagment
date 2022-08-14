@@ -48,8 +48,32 @@
 
 /* =====================================section liste service========================== */
 .list{
-    background:var(--gray);
+    background:var(--white);
 }
 .title1{
-    
+    text-align:center;
+    font-size:3rem;
+    letter-spacing: 0.5rem;
+    font-weight:800;
+}
+table{
+    margin-left:20rem;
+    margin-top:2rem;
+}
+table thead{
+    background:var(--indigo);
+    color:ivory;
+}
+table thead th{
+    padding:2rem 10rem;
+    font-size: 1.6rem;
+    border-radius:1rem;
+}
+table tbody td{
+    text-align: center;
+    padding:1.3rem 10rem;
+    font-size:1.5rem;
+    font-weight:600;
+    border:0;
+    border-bottom:2px solid var(--indigo);
 }

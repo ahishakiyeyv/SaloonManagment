@@ -16,6 +16,43 @@
     </section>
     <section class="list">
         <h1 class="title1">Liste des Services</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nom Service</th>
+                    <th>Taux</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Malynx</td>
+                    <td>2000 fbu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Malynx</td>
+                    <td>2000 fbu</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Malynx</td>
+                    <td>2000 fbu</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Malynx</td>
+                    <td>2000 fbu</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Malynx</td>
+                    <td>2000 fbu</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
+    
 </body>
 </html>
