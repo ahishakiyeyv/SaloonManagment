@@ -55,6 +55,8 @@
     font-size:3rem;
     letter-spacing: 0.5rem;
     font-weight:800;
+    margin:2rem;
+    text-transform: uppercase;
 }
 table{
     margin-left:20rem;

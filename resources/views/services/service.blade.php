@@ -15,13 +15,13 @@
         </h3>
     </section>
     <section class="list">
-        <h1 class="title1">Liste des Services</h1>
+        <h1 class="title1">Liste des Services et Nos Prix</h1>
         <table>
             <thead>
                 <tr>
                     <th>#</th>
                     <th>Nom Service</th>
-                    <th>Taux</th>
+                    <th>Prix Service</th>
                 </tr>
             </thead>
             <tbody>
@@ -53,6 +53,6 @@
             </tbody>
         </table>
     </section>
-    
+
 </body>
 </html>
