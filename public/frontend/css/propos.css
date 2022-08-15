@@ -46,7 +46,6 @@
 }
 .img-box{
     width:45rem;
-    border:1px solid red;
 }
 .img1{
     width:40rem;
@@ -55,5 +54,24 @@
 .txt-box{
     width:50rem;
     height:50rem;
-    border:1px solid red;
+}
+.title2{
+    font-size:4rem;
+    text-align: center;
+    padding:1rem;
+}
+.para{
+    font-size:2.5rem;
+    padding:1rem;
+    line-height:4rem;
+    font-family:pristina;
+}
+.btnlearn{
+    padding:1rem 3rem;
+    border-radius:.5rem;
+    font-size:1.8rem;
+    font-weight:600;
+    background:var(--bleu);
+    color:var(--white);
+    margin-left:15rem;
 }

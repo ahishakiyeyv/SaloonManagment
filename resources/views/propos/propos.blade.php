@@ -17,7 +17,7 @@
     <section class="section1">
         <div class="container">
             <div class="img-box">
-                    <img src="{{ url('/img/ma.jpg') }}" alt="image non disponible" class="img1">
+                    <img src="{{ url('/img/ma.jpeg') }}" alt="image non disponible" class="img1">
             </div>
             <div class="txt-box">
                 <h1 class="title2">Modes Parfaites</h1>
