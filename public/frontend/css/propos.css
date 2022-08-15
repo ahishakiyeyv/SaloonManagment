@@ -22,3 +22,10 @@
      --violet:#320d3e;
      --border: .2rem solid var(--black);
 }
+/* ==============================section homepage=============================== */
+.homepage{
+    background-image: url('/img/hair.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
