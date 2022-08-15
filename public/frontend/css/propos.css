@@ -86,14 +86,19 @@ background:var(--indigo);
     align-items: center;
     flex-wrap: wrap;
 }
- h1{
+ .h1{
     color:var(--white);
     font-size:4rem;
 }
-p{
+.p{
     color:var(--white);
     font-size:3rem;
 }
 .fashion,.services,.worker,.customer{
     padding:1rem 5rem;
+}
+
+/* ===========================section vide====================================== */
+.vide{
+    min-height: 20vh;
 }

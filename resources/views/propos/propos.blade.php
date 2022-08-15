@@ -29,22 +29,26 @@
     <section class="counter">
         <div class="container1">
             <div class="fashion">
-                <h1>45</h1>
-                <p>Fashions</p>
+                <h1 class="h1">45</h1>
+                <p class="p">Fashions</p>
             </div>
             <div class="services">
-                <h1>56</h1>
-                <p>Services Served</p>
+                <h1 class="h1">56</h1>
+                <p class="p">Services Served</p>
             </div>
             <div class="worker">
-                <h1>15</h1>
-                <p>Workers</p>
+                <h1 class="h1">15</h1>
+                <p class="p">Workers</p>
             </div>
             <div class="customer">
-                <h1>145</h1>
-                <p>Customers</p>
+                <h1 class="h1">145</h1>
+                <p class="p">Customers</p>
             </div>
         </div>
     </section>
+    <section class="vide">
+
+    </section>
+    @include('layouts.footer')
 </body>
 </html>
