@@ -40,8 +40,12 @@
 
         </div>
         <div class="grp-box">
-            
+
         </div>
     </section>
+    <section class="vide">
+
+    </section>
+    @include('layouts.footer')
 </body>
 </html>
