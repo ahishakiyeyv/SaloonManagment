@@ -14,7 +14,7 @@
         <nav class="navbar">
              <a href="{{ url('/') }}">Accueil</a>
              <a href="{{ url('service') }}">Service</a>
-             <a href="#about">A Propos</a>
+             <a href="{{ url('propos') }}">A Propos</a>
              <a href="#features">Contact</a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>

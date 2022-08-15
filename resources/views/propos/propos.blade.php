@@ -8,7 +8,7 @@
     <title>A Propos</title>
 </head>
 <body>
-    @include('menu')
+    @include('layouts.menu')
     <section class="homepage">
 
     </section>
