@@ -75,3 +75,25 @@
     color:var(--white);
     margin-left:15rem;
 }
+
+/* ==============================section counter============================= */
+.counter{
+background:var(--indigo);
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ h1{
+    color:var(--white);
+    font-size:4rem;
+}
+p{
+    color:var(--white);
+    font-size:3rem;
+}
+.fashion,.services,.worker,.customer{
+    padding:1rem 5rem;
+}
