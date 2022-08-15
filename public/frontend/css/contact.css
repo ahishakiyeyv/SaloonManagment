@@ -30,3 +30,53 @@
     background-position: center;
     min-height:80vh;
 }
+.title1{
+    font-size:3rem;
+    position:relative;
+    top:50vh;
+    left:8rem;
+}
+
+/* =================================section container info============================== */
+.title2{
+    font-size:3rem;
+    font-weight:600;
+}
+.container-info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.box{
+    width:24rem;
+    height:15rem;
+    margin:4rem 1rem;
+    background:var(--indigo);
+    border-radius:1rem;
+}
+.ttle1{
+    color:var(--white);
+    text-align: center;
+    padding-top:3rem;
+}
+.parag{
+    color:var(--white);
+    font-size:1.5rem;
+    text-align: center;
+    padding:2rem;
+}
+
+/* ===============================section container2================================ */
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.grp-box{
+    height:40rem;
+    width:50rem;
+    border:1px solid red;
+    margin:1rem;    
+}

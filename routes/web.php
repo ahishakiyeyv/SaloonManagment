@@ -25,3 +25,7 @@ Route::get('service','App\Http\Controllers\ServiceController@getservice');
 
 //START PROPOS
 Route::get('propos','App\Http\Controllers\ProposController@getpropos');
+
+
+//START CONTACT
+Route::get('contact','App\Http\Controllers\ContactController@getcontact');
