@@ -9,5 +9,8 @@
 </head>
 <body>
     @include('layouts.menu')
+    <section class="homepage1">
+        
+    </section>
 </body>
 </html>
