@@ -10,7 +10,21 @@
 <body>
     @include('layouts.menu')
     <section class="homepage">
-
+        <h2 class="title">
+            <a href="{{ url('/') }}" class="link1">Accueil</a>><a href="#" class="link2">A Propos</a>
+        </h2>
+    </section>
+    <section class="section1">
+        <div class="container">
+            <div class="img-box">
+                    <img src="{{ url('/img/ma.jpg') }}" alt="image non disponible" class="img1">
+            </div>
+            <div class="txt-box">
+                <h1 class="title2">Modes Parfaites</h1>
+                <p class="para">Notre objectif principal est la qualité et l'hygiène. Notre salon est bien équipé avec des équipements de technologie de pointe et fournit les meilleurs services de qualité. Notre personnel est bien formé et expérimenté, offrant des services avancés de modelage de la peau, des cheveux et du corps qui vous offriront une expérience luxueuse qui vous laissera détendu et sans stress.</p>
+                <button class="btnlearn">En Savoir Plus</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>

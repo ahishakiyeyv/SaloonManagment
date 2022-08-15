@@ -24,8 +24,36 @@
 }
 /* ==============================section homepage=============================== */
 .homepage{
-    background-image: url('/img/hair.jpg');
-    background-position: center;
+    background-image: url('/img/la.jpg');
+   background-position: 0cm;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.title{
+    font-size:3rem;
+    position:relative;
+    top:50vh;
+    left:8rem;
+}
+
+/* ===========================section section1======================================= */
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-box{
+    width:45rem;
+    border:1px solid red;
+}
+.img1{
+    width:40rem;
+    height:45rem;
+}
+.txt-box{
+    width:50rem;
+    height:50rem;
+    border:1px solid red;
 }
