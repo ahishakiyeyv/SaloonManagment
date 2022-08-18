@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+     text-decoration: none;
+}
+
+/* variables start */
+:root
+{
+    --gray:#c6d7eb;
+     --black: #000;
+     --white: #fff;
+     --bleu:#408ec6;
+     --marron:#7a2048;
+     --indigo:#1e2761;
+     --violet:#320d3e;
+     --brack:#343A40;
+     --border: .2rem solid var(--black);
+}
+/* ========================aside============================ */
+.aside{
+    background:var(--brack);
+    width:20%;
+    min-height:100vh;
+}
+.logo_name{
+    padding:1rem;
+    padding-bottom:.2rem;
+    border:0;
+    border-bottom:1px solid gray;
+    display:flex;
+    justify-content: space-around;
+}
+.img_logo{
+    width:50px;
+    height:50px;
+    border-radius:5rem;
+    margin-left:-2.2rem;
+}
+.logo{
+    font-size:1.6rem;
+    margin-top:.5rem;
+}
+.profile_name{
+    padding:1rem .5rem;
+    border:0;
+    border-bottom:1px solid gray;
+    display:flex;
+    justify-content: space-around;
+}
+.name{
+    color:var(--white);
+    font-size:1rem;
+    margin-top:1rem;
+}
+.profile_name .img_profile{
+    height:50px;
+    width:50px;
+    border-radius:50px;
+}
+.lii{
+    padding:0.5rem 0.1rem;
+}
+.link{
+    font-size:1.2rem;
+    text-align: left;
+    padding:.5rem 3.5rem;
+    padding-right:6rem;
+    color:var(--white);
+}
+.lii:hover{
+    background:#494E53;
+}
+.link:hover{
+    background:#494E53;
+}
+.logout_link{
+    margin-top:5rem;
+}
+.link_logout{
+    color:white;
+    padding:.2rem 1rem;  
+    border:1px solid red;
+}
