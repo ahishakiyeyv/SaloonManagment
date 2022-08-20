@@ -32,9 +32,17 @@ Route::get('contact','App\Http\Controllers\ContactController@getcontact');
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::group(['middleware' =>['auth','isAdmin']], function(){
+//     Route::get('/dashboard', function (){
+//         return view('dashboard');
+//     });
+// });
 Route::middleware(['auth',])->group(function(){
 
-  
+    // Route::get('/dashboard', function (){
+    //     return view('dashboard');
+    // });
 // START DASHBOARD
 Route::get('dashboard','App\Http\Controllers\DashboardController@dash');
 });
+
