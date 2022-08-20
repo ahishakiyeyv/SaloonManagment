@@ -13,6 +13,6 @@ class DashboardController extends Controller
 
     public function dash()
     {
-        return view('dashboard');
+        return view('admin.dashboard');
     }
 }
