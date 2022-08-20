@@ -17,10 +17,6 @@
              <a href="{{ url('propos') }}">A Propos</a>
              <a href="{{ url('contact') }}">Contact</a>
              <a href="{{ url('login') }}">admin</a>
-             <a href="{{route('logout')}}"  onclick="event.preventDefault();document.getElementById('logout-form').submit();"><i class='bx bx-log-out' ></i>logout</a>
-        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-            @csrf
-        </form>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
    </header>
