@@ -1,4 +1,4 @@
 @extends('layouts.navside')
-@section('dashboard')
+@section('content')
 <h1>hellooooooo</h1>
 @endsection
